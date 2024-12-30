@@ -1,10 +1,10 @@
-# Financial Market Price Prediction Using Transformer Models
+# Project Overview
+This project explores advanced AI techniques for predicting financial market trends, specifically focusing on gold price movements (XAUUSD). Using over 51,000 hourly data points from April 2016 to November 2024, we developed and evaluated three deep learning models—LSTM, Temporal Convolutional Network (TCN), and an Attention-based model—to predict market trends and improve trading strategies.
 
-## Project Overview
-This project applies AI techniques to predict gold price movements (XAUUSD) using over 51,000 hourly data points (2016–2024). We developed and compared three models—LSTM, Temporal Convolutional Network (TCN), and an Attention-based model—for market trend forecasting and trading strategy optimization.
-
-## Key Highlights
-- **Dataset**: Hourly price data with ATR (Average True Range) for volatility assessment.
-- **Best Model**: TCN achieved a 55% win rate and 451% ROI, outperforming LSTM and Attention models.
-- **Comparison**: TCN surpassed traditional methods (ARIMA, GARCH) in scalability and profitability.
+## Key Features
+- **Dataset**: Hourly price data (Open, High, Low, Close) enriched with the Average True Range (ATR) indicator for volatility assessment.
+- **Models Implemented**:
+  - **LSTM (Long Short-Term Memory)**: Captures sequential dependencies with a win rate of 51% and an ROI of 133%.
+  - **TCN (Temporal Convolutional Network)**: Achieves the best results with a win rate of 55% and an ROI of 451%.
+  - **Attention-Based Model**: Highlights specific temporal features with a win rate of 50% but limited profitability.
 
