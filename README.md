@@ -8,7 +8,3 @@ This project applies AI techniques to predict gold price movements (XAUUSD) usin
 - **Best Model**: TCN achieved a 55% win rate and 451% ROI, outperforming LSTM and Attention models.
 - **Comparison**: TCN surpassed traditional methods (ARIMA, GARCH) in scalability and profitability.
 
-## How to Use
-1. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
